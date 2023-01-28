@@ -1,4 +1,7 @@
 {
+  "include": [
+    "src/**/*"
+],
   "compilerOptions": {
       "paths": {
           "@/*": ["*"]
@@ -9,6 +12,7 @@
       "moduleResolution": "node",
       "sourceMap": true,
       "outDir": "dist",
+      "declaration": true,
       "baseUrl": "."
     },
     "lib": ["es2020"]
